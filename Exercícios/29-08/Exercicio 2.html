@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 2</title>
+</head>
+<body>
+<form action="submit" method="post">
+    <label for="nome_produto">Nome do produto:</label>
+    <input id="nome_produto" type="text" placeholder="Insira o nome do prodto..." required>
+    <br><br>
+    <label for="descricao_produto">Descrição do produto:</label>
+    <input id="descricao_produto" type="text" placeholder="Descreva o produto..." required>
+    <br><br>
+    <label for="categoria_produto">Categoria:</label>
+    <select id="categoria_produto" required>
+        <option value="nulo">selecione uma opção</option>
+        <option value="eletronico">Eletrônicos</option>
+        <option value="livro">Livros</option>
+        <option value="brinquedo">Brinquedos</option>
+        <option value="esporte">Esportes</option>
+        <option value="calcado">Calçados</option>
+    </select>
+    <br><br>
+    <label for="pais_fabricacao">País de fabricação</label>
+    <select id="pais_fabricacao" required>
+        <option value="nulo">selecione uma opção</option>
+        <optgroup label="América do Sul">
+            <option value="brasil">Brasil</option>
+            <option value="chile">Chile</option>
+        </optgroup>
+        <optgroup label="Ásia">
+            <option value="china">China</option>
+            <option value="japao">Japão</option>
+            <option value="tailandia">Tailandia</option>
+        </optgroup>
+    </select>
+    <br><br>
+    <label for="valor_produto">Valor:</label>
+    <input id="valor_produto" type="number" placeholder="Insira o valor do prouduto..." required>
+    <br><br>
+    <label for="data_fabricacao">Data de fabricacao</label>
+    <input id="data_fabricacao" type="date" required>
+    <br><br>
+    <button type="submit">Enviar</button>
+</form>
+</body>
+</html>

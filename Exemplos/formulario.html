@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tags de formulário</title>
+</head>
+<body>
+    <form action="submit" method="post">
+        <label for="email">Email:</label>
+        <input id="email" type="email"  placeholder="Email" required>
+
+        <br><br>
+
+        <label for="senha">Senha:</label>
+        <input id="senha" type="password"  placeholder="Senha" minlength="8" required>
+
+        <br><br>
+
+        <label for="mensagem">mensagem:</label>
+        <br>
+        <textarea id="mensagem" rows="5" cols="20" placeholder="mensagem..." required></textarea>
+        <br><br>
+        <label for="cidade">Cidade:</label>
+        <select id="cidade">
+            <optgroup label="Vizinhas">
+                <!--atributo value indica o valor que será enviado ao banco-->
+                <option value="aracatuba">Araçatuba</option>
+                <option value="valparaiso">Valparaíso</option>
+                <option value="birigui">Birigui</option>
+                <option value="guararapes">Guararapes</option>
+            </optgroup>
+            <optgroup label="Capitais">
+                <option value="sao_paulo">São Paulo</option>
+                <option value="rio_de_janeiro">Rio de Janeiro</option>
+                <option value="fortaleza">Fortaleza</option>
+                <option value="salvador">Salvador</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
