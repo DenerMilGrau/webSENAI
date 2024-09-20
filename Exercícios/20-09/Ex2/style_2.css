@@ -1,0 +1,45 @@
+body{
+    background-color: #efed90;
+    font-family: Serif;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    background-color: white;
+    font-size:30px;
+}
+
+li{
+    background-color: cadetblue;
+    margin-bottom: 5px;
+}
+
+.verde_1{
+    color: darkgreen;
+}
+
+.vermelho_2{
+    color: red;
+    text-align: center;
+}
+
+.azul_3{
+    color: blue;
+    text-align: end;
+}
+.roxo_4{
+    color: purple;
+    text-align: center;
+}
+
+.amarelo_5{
+    color: yellow;
+}
+
+.rosa_6{
+    color: deeppink;
+    text-align: center;
+}

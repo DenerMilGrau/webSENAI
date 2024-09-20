@@ -1,0 +1,34 @@
+h1{
+    color: blueviolet;
+}
+
+/*paragrafo comum*/
+p{
+    color: blue;
+}
+
+/*class*/
+.frase{
+    color: #0cff61;
+    text-decoration: underline;
+}
+
+/*id*/
+#frase{
+    color: coral;
+    background-color: aqua;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Baskerville Old Face", sans-serif;
+/*troca a fonte a fonte depois da vírgula serve para definir uma fonte padrão caso n tenha instalado a fonte*/
+}
+#frase:hover{
+    font-size: 46px;
+    color: black;
+    font-family: "Magneto", serif;
+    background-color: blueviolet;
+}
+body{
+    background-color: darkslategray;
+
+}
