@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: block;
+    background-color: lightblue;
+    height: 100vh;
+    text-align: center;
+    font-size: 36px;
+}
+.div-green{
+    width: 100vw;
+    height: 100px;
+    background-color: green;
+
+}
+.div-blue{
+    width: 49vw;
+    height: 200px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.div-yellow{
+    width: 50vw;
+    height: 200px;
+    background-color: yellow;
+    display: inline-block;
+}
+

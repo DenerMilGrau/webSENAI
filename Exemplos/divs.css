@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Todos os paragrafos dentro de uma div são selecionados*/
+div p{
+    color: white;
+    display: inline;
+}
+
+.block, .div-inline, .inline-block{
+    background-color: #390cff;
+}
+
+.block{
+    /*background-color: black;*/
+    display: block;
+    /*(define a largura 100%)*/
+
+}
+
+.div-inline{
+    /*background-color: black;*/
+    display: inline;
+    /*Define a largura para se ajustar a largura do elemento contido*/
+}
+
+.inline-block{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 20px; /*Margem valores diferentes seguem o sentido horário (top, right, bottom, left)*/
+    padding: 20px; /*Margem interna*/
+    border: 5px solid red;
+    border-radius: 50px;
+}
+

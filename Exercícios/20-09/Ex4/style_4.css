@@ -19,5 +19,6 @@ h1{
 img:hover{
     width: 500px;
 }
-
-img:{}
+body{
+    text-align: center;
+}
