@@ -19,11 +19,12 @@ header a{
     float: left;
     margin-left: 20px;
     margin-top: 10px;
+
 }
 
 nav{
-    /*background-image: linear-gradient(#9a293f, #df3757, #ff5072);*/
-    background-color: #df3757;
+    background-image: linear-gradient(#9a293f, #df3757, #ff5072);
+    /*background-color: #df3757;*/
     width: 20vw;
     height: 120vh;
     text-align: center;
